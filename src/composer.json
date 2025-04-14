@@ -1,0 +1,14 @@
+{
+    "name": "myproject/simple-router",
+    "description": "A simple PHP project with Pecee Simple Router",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "pecee/simple-router": "5.3.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
